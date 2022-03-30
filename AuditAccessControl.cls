@@ -78,7 +78,6 @@ public with sharing class AuditAccessControl {
         //if(accesstype == '1' ) /{insert SecurityScanCase;}
         if((Schema.sObjectType.PermissionSet.isAccessible()))
 		{ //CRUD + FLS
-			
 
 
 // 			return [Select p.ProfileId, p.Profile.Name, p.PermissionsViewEncryptedData, p.PermissionsViewAllUsers, p.PermissionsViewAllData, p.PermissionsManageUsers, p.PermissionsManageUnlistedGroups, 
